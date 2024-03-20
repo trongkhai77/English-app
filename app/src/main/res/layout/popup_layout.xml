@@ -1,0 +1,26 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="80dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center">
+
+    <!-- Add your views here for the popup content -->
+    <TextView
+        android:id="@+id/edtViewDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View detail"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/edtDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+</LinearLayout>

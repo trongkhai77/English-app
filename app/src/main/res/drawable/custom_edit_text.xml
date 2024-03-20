@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Hiệu ứng đổ bóng -->
+    <item >
+        <shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:startColor="@color/shadow"
+                android:endColor="@color/white"
+                android:angle="90"/>
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <!--     Hình dạng của EditText-->
+    <item android:top="0dp" android:left="1dp" android:right="1dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>

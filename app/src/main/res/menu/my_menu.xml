@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="add"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_add_24"
+        android:id="@+id/addBtn"
+        />
+    <item android:title="user"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/avatar"
+        android:id="@+id/avatar"
+        />
+</menu>

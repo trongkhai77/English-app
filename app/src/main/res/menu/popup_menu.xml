@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/aToZ"
+        android:title="Sort by Name (ascending)"
+        />
+    <item android:id="@+id/zToA"
+        android:title="Sort by Name (descending)"
+        />
+    <item android:id="@+id/ascending"
+        android:title="Sort by ID (ascending)"
+        />
+    <item android:id="@+id/descending"
+        android:title="Sort by ID (descending)"
+        />
+</menu>

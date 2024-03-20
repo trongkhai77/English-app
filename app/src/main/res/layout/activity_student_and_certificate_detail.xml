@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentAndCertificateDetail">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:id="@+id/scrollView"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:src="@drawable/baseline_chevron_left_24" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:text="Details"
+                        android:textAlignment="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:text="Name"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:layout_weight="3"
+                                android:text="Truong Trong Khai"
+                                android:textSize="18sp"
+
+                                />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:text="Student ID"
+                                android:textSize="18sp"
+
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:layout_weight="3"
+                                android:text="52100966"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:text="Gender"
+                                android:textSize="18sp"
+
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:layout_weight="3"
+                                android:text="Gay"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:text="Age"
+                                android:textSize="18sp"
+
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:layout_weight="3"
+                                android:text="20"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:text="Class ID"
+                                android:textSize="18sp"
+
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:layout_weight="3"
+                                android:text="21050401"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:text="Phone number"
+                                android:textSize="18sp"
+
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:layout_weight="3"
+                                android:text="09006009"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:text="Status"
+                                android:textSize="18sp"
+
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:layout_weight="3"
+                                android:text="Normal"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:text="Roll"
+                                android:textSize="18sp"
+
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:layout_weight="3"
+                                android:text="Student"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:text="Username"
+                                android:textSize="18sp"
+
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_weight="3"
+                                android:text="khaimao123"
+                                android:textSize="18sp" />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:text="Password"
+                                android:textSize="18sp"
+
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:layout_weight="3"
+                                android:text="khainek"
+                                android:textSize="18sp" />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:padding="5dp"
+                            android:text="Certificate"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/addCertificate"
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@drawable/baseline_add_24" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/importCertificateBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_custom"
+                            android:padding="5dp"
+                            android:text="Import Certificates by csv"
+                            android:textColor="@color/white"
+                            android:textSize="12dp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/exportCertificateBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_custom"
+                            android:padding="5dp"
+                            android:text="Export Certificates by csv"
+                            android:textColor="@color/white"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tableHead"
+                        >
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:text="Certificate ID"
+                                android:textAlignment="center"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:text="Name"
+                                android:textAlignment="center"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:text="Date"
+                                android:textAlignment="center"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:text="H7298"
+                                android:textAlignment="center" />
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:text="IELTS"
+                                android:textAlignment="center" />
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:text="21/10/2021"
+                                android:textAlignment="center" />
+                        </TableRow>
+
+                        <TableRow android:padding="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:text="R89KN"
+                                android:textAlignment="center" />
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:text="PET"
+                                android:textAlignment="center" />
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:text="03/04/2003"
+                                android:textAlignment="center" />
+                        </TableRow>
+                    </TableLayout>
+
+
+                </LinearLayout>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ListView
+                        android:id="@+id/certificateList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </ScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#02505D"
+                        android:paddingHorizontal="70dp"
+                        android:text="Update"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
