@@ -1,3 +1,3 @@
 # English-app
 An English app for studying new words, translate, ...
-<img src="https://github.com/trongkhai77/English-app/blob/main/loginScreen.jpg" alt="..." width="250" />
+<img src="https://github.com/trongkhai77/English-app/blob/main/loginScreen.jpg" />
